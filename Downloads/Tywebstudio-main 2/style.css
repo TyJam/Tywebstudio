@@ -1,3 +1,47 @@
 body {
-  background: pink;
+  width: 1440px;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+#nav-bar {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+#nav-bar > img {
+  width: 155px;
+  height: 109px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+ul > li {
+  width: 130px;
+  font-size: 16px;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+}
+ul li > a {
+  text-align: start;
+  text-decoration: none;
+  color: black;
+}
+
+#dropdown-content {
+  display: none;
+}
+.dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#dropdown-web-content {
+  display: none;
+}
+.dropdown-web:hover #dropdown-web-content {
+  display: block;
 }
