@@ -5,6 +5,15 @@ body {
   background: white;
 }
 
+/* FONT */
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 #nav-bar {
   display: inline-flex;
   flex-direction: row;
@@ -16,6 +25,10 @@ body {
 }
 nav {
   margin-left: 200px;
+}
+#service > img {
+  width: 16px;
+  margin-inline: 5px;
 }
 ul {
   display: flex;
