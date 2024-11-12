@@ -5194,3 +5194,410 @@ hr {
     left: 36vw;
   }
 }
+
+
+
+
+
+/* JADECOAPP CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+main{
+  background-color: #0C7EA2;
+}
+.jadecoapp_hero_image{
+  height: 70vw;
+}
+
+#jadecoappHeroContainer{
+  background-image: url('../images/jadecoAppImage/jadecoappHeroImage.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+/* jadeco about ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.about_jadeco_content{
+  margin-left: 3px;
+}
+
+.about_jadeco_content h1{
+  background-color: white;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+  padding-left: 5vw;
+  font-size: 1.5rem;
+  font-family: 'Raleway';
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.about_jadeco_content div{
+  padding-bottom: 3vw;
+  padding-left: 12vw;
+  padding-right: 5vw;
+  color: #FFFFFF;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+.about_jadeco_content ol{
+  list-style-type: disc;
+  padding-left: 20px;
+
+  li{
+    margin-top: 3vw;
+  }
+}
+.problem-content{
+  display: flex;
+  gap: 3vw;
+}
+.problem-content p{
+  width: 33%;
+  padding: 1rem;
+  margin-top: 3vw;
+  border: 2.3px solid #FFFFFF;
+  text-align: center;
+}
+
+/* jadeco role ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-role-content{
+  padding: 5vw 10vw;
+}
+
+.jadeco-role-content h1{
+  color: #FFFFFF;
+  font-size: 3.5vw;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.role-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+
+.role-content-middle{
+  margin: 2px 5vw;
+}
+
+.role-content p{
+  width: 22vw;
+  padding: 1.2rem 0.8rem;
+  margin-top: 3vw;
+  border: 2.3px solid #FFFFFF;
+  border-radius: 4vw;
+  text-align: center;
+  columns: #000000;
+  font-size: 1.5vw;
+  font-family: 'Raleway';
+  font-weight: 600;
+  background-color: #FFFFFF;
+}
+.role-content span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6vw;
+  gap: 0.7rem;
+}
+.role-content span h1{
+  font-size: 6vw;
+  font-family: 'Gothic A1', sans-serif;
+}
+.role-content span h4{
+  margin-top: 1.3vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+}
+
+
+
+/* jadeco design ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-design-content{
+  padding: 5vw 10vw;
+}
+
+.jadeco-design-content h1{
+  color: #FFFFFF;
+  font-size: 3.5vw;
+  font-family: 'Darker Grotesque', sans-serif;
+  margin: 3vw 0vw;
+}
+.design-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15vw;
+  padding: 4vw 0vw;
+}
+
+.design-content p{
+  width: 31vw;
+  height: 18vw;
+  padding: 3rem 0.8rem;
+  margin-top: 3vw;
+  border: 3vw solid #FFFFFF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2.4vw;
+  font-family: 'Raleway';
+  font-weight: 700;
+  background-color: #FFFFFF;
+  color: #0C7EA2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-content-down{
+  margin: -5vw 15vw;
+}
+
+
+/* jadeco user research ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-user-research{
+  padding: 12vw 5vw;
+  color: #FFFFFF;
+}
+.jadeco-user-content h1{
+  padding-top: 3vw;
+  font-size: 3.5vw;
+  font-family: 'Darker Grotesque', sans-serif;
+
+}
+.jadeco-user-content h3{
+  padding-top: 3vw;
+  font-size: 2.2vw;
+  font-family: 'Darker Grotesque', sans-serif;
+
+}
+.question-content p{
+  font-size: 2.2vw;
+  padding-top: 3vw;
+  font-weight: 500;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.jadeco-user-content ol{
+  list-style-type: disc;
+  padding-left: 5vw;
+
+  li{
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+}
+
+
+/* jadeco persona ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-persona-content{
+  padding: 5vw 5vw;
+}
+.jadeco-persona-content .heading{
+  padding-top: 0 3vw;
+  font-size: 3.5vw;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #FFFFFF;
+}
+.user-persona-flex{
+  display: flex;
+  gap: 5vw;
+}
+.user-persona-div{
+  background-color: #FFFFFF;
+  margin-top: 3vw;
+}
+.persona1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+}
+.persona1 h1{
+  padding-top: 3vw;
+  padding-bottom: 1.8vw;
+  font-size: 2.5vw;
+  font-family: 'DM Sans', sans-serif;
+}
+.persona1 img{
+  width: 10vw;
+}
+.persona1 li{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vw;
+  gap: 5vw;
+  font-weight: 900;
+  font-size: 1.5vw;
+  font-family: 'DM Sans', sans-serif;
+}
+.persona1 .last-li{
+  padding-bottom: 3vw;
+}
+.person2{
+  width: 30vw;
+}
+.person2 h1{
+  font-size: 6vw;
+  padding-left: 0.8vw;
+  font-family: 'DM Sans', sans-serif;
+}
+.person2 p{
+  margin-top: -3vw;
+  font-size: 1.8vw;
+  padding: 0vw 3vw;
+  padding-bottom: 3vw;
+}
+.person3{
+  padding: 0 3vw;
+}
+.person3 h1{
+  font-size: 2.2vw;
+  padding-top: 2vw;
+}
+.person3 p{
+  font-size: 1vw;
+  padding: 2vw 0vw;
+  font-size: 1.4vw;
+}
+.person3 li{
+  padding-top: 2vw;
+  padding-left: 2vw;
+  font-size: 1.4vw;
+}
+.person3 .botom{
+  padding-bottom: 3vw;
+}
+
+
+/* jadeco userflow ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-userflow-content img{
+  margin-top: 5vw;
+  padding: 5vw 4vw;
+  font-size: 2.5vw;
+  font-family: 'DM Sans', sans-serif;
+  color: #FFFFFF;
+}
+
+
+/* jadeco iphone ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-iphone-content img{
+  margin-top: 10vw;
+  font-size: 2.5vw;
+  font-family: 'DM Sans', sans-serif;
+  color: #FFFFFF;
+}
+
+
+/* jadeco link to other product ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-overlay-section {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  margin-top: 10vw;
+}
+
+.jadeco-link-section-left,
+.jadeco-link-section-right {
+  position: relative;
+  flex: 1 1 calc(32% - 5px);
+  width: 50%;
+  height: 15vw;
+  padding: 0;
+  margin-bottom: 40px;
+  overflow: hidden;
+  color: black;
+  background-color: rgb(224, 222, 222);
+  transition: background-image 0.3s ease, color 0.3s ease;
+  z-index: 20;
+}
+
+.jadeco-link-section-left:hover {
+  background-image: url('/images/workImage/right_outer_image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jadeco-link-section-right:hover {
+  background-image: url('/images/workImage/left_outer_image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jadeco-link-section-left::before
+.jadeco-link-section-right::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 26, 26, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.jadeco-link-section-left:hover::before,
+.jadeco-link-section-right:hover::before {
+  opacity: 1;
+}
+
+.jadeco-link-section h1,
+.jadeco-link-section p,
+.jadeco-text-right,
+.jadeco-text-left {
+  position: relative;
+  z-index: 4;
+  color: inherit;
+}
+
+.jadeco-link-section:hover h1,
+.jadeco-link-section:hover p,
+.jadeco-link-section:hover img {
+  color: white;
+}
+
+.jadeco-display-left {
+  padding-top: 5vw;
+  padding-left: 4vw;
+}
+
+.jadeco-display-right {
+  padding-top: 5vw;
+  padding-right: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.jadeco-text-right {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2vw;
+  margin-top: 1vw;
+}
+
+.jadeco-text-left {
+  display: flex;
+  gap: 2vw;
+  margin-top: 1vw;
+}
+
+.jadeco-text-right img,
+.jadeco-text-left img {
+  width: 2vw;
+  filter: brightness(0);
+  transition: filter 0.3s ease;
+  top: -1vw;
+}
+
+.jadeco-text-right img:hover,
+.jadeco-text-left img:hover {
+  filter: brightness(1);
+}
+
+/* jadeco FOOTER ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.jadeco-footer{
+  margin-top: -2.9vw;
+}
