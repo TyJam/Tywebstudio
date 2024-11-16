@@ -21,14 +21,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
-
-
         <link rel="stylesheet" href="css/styles.css"/>
     </head>
-    <body>
+    <body class="request-mobile-body">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -118,199 +113,112 @@
                         </div>
                     </div>
                 </div>
-            </header>  
-            <main id="main main_background">
-                <section class="jadecoapp_hero_image position-relative">
-                 
-                    <div id="jadecoappHeroContainer" class="banner-main-video position-absolute">
-                    
-                    <!--<video src="images/649201_Office Businessman Businesswoman Colleagues_By_Evgenii_Petrunin_Artlist_HD.mp4" width="" height=""  autoplay preload="" loop></video>
-                    -->
-                    </div>   
-                </section>
-                <section class="about_jadeco_section">
-                    <div class="about_jadeco_content">
-                        <h1>About the project</h1>
+            </header> 
+            <main class="request-a-quote-main">
+                <section class="request-a-quote-section">
+                    <h2 class="quote-header">
+                        We’d Love To Hear About Your Project
+                    </h2>
+                    <h1 class="sub-heading">
+                        Request A Quote
+                    </h1>
+                    <form id="form">
+                        <div class="request-a-quote-content">
+                            <div class="request-form">
+                                <h1>
+                                    Let’s Boost Your Brand Online
+                                </h1>
+                                
+                                    <div>
+                                        <div>
+                                            <input type="text" class="form-control" id="from_name" placeholder="Your Name*">
+                                            <input type="text" class="form-control" id="from_name" placeholder="Email*">
+                                            <input type="text" class="form-control" id="from_name" placeholder="Phone Number*">
+                                            <input type="text" class="form-control" id="from_name" placeholder="Company Name*">
+                                        </div>
+                                        <div>
+                                            <textarea class="form-control" placeholder="Project Details*" id="message" style="height: 170px"></textarea>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="request-options">
+                                <div class="bracket">
+                                    <h1>
+                                        Project Type 
+                                    </h1>
+                                    <h5>
+                                        (select atleast one)
+                                    </h5>
+                                </div>
+                                <div>
+                                    <div class="checking">
+                                        <input 
+                                            type="radio"
+                                            name='redesigning'
+                                            value='redesigning'
+                                        />
+                                        <label htmlFor="redesigning">Redesigning My Website</label>
+                                    </div>
+                                    <div class="checking">
+                                        <input 
+                                            type="radio"
+                                            name='redesigning'
+                                            value='redesigning'
+                                        />
+                                        <label htmlFor="redesigning">A brand New Website</label>
+                                    </div>
+                                    <div class="checking">
+                                        <input 
+                                            type="radio"
+                                            name='redesigning'
+                                            value='redesigning'
+                                        />
+                                        <label htmlFor="redesigning">Digital Marketing</label>
+                                    </div>
+                                    <div class="checking">
+                                        <input 
+                                            type="radio"
+                                            name='redesigning'
+                                            value='redesigning'
+                                        />
+                                        <label htmlFor="redesigning">Ecommerce</label>
+                                    </div>
+                                    <div class="checking">
+                                        <input 
+                                            type="radio"
+                                            name='redesigning'
+                                            value='redesigning'
+                                        />
+                                        <label htmlFor="redesigning">Branding</label>
+                                    </div>
+                                    <div class="checking">
+                                        <input 
+                                            type="radio"
+                                            name='redesigning'
+                                            value='redesigning'
+                                        />
+                                        <label htmlFor="redesigning">Mobile App</label>
+                                    </div>
+                                    <div class="upload">
+                                        <div>
+                                            <button><img src="./images/requestQuoteImage/downloadImage.png" alt=""></button>
+                                        </div>
+                                        <div>
+                                            <h1>Upload An RFP</h1>
+                                            <h5>(10Mb Max) Pdf, Doc, Docx,Jpg,Gif, Png</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
-                            <ol>
-                                <li>JadecoApp is all about modernizing waste management in Africa. It's a user-friendly mobile app that simplifies waste collection, promotes recycling, and empowers communities to make eco-friendly choices, ultimately creating a cleaner and greener future for the continent.</li>
-                                <li>JadecoApp is on a mission to reduce environmental pollution and foster a culture of recycling across Africa. By offering an intuitive mobile app, the project aims to make waste management accessible and sustainable, contributing to a cleaner and more eco-friendly continent.</li>
-                            </ol>
+                            <button class="request-btn py-3" type="submit" id="button"><p>Send Message</p><img src="./images/right-right-arrow.png" alt=""></button>
                         </div>
-                    </div>
-                    <div class="about_jadeco_content">
-                        <h1>Problems</h1>
-                        <div class="problem-content">
-                            <p>Inefficient waste collection and disposal systems often lead to garbage piling up in communities, causing health hazards and environmental pollution.</p>
-                            <p>The environmental footprint of waste management, including landfill usage and energy consumption, can strain natural resources and contribute to climate change.</p>
-                            <p>Lack of awareness and education about responsible waste management practices results in improper waste disposal and recycling behavior.Many communities lacks.</p>
-                        </div>
-                    </div>
-                    <div class="about_jadeco_content">
-                        <h1>Solutions</h1>
-                        <div>
-                            <ol>
-                                <li>JadecoApp is all about modernizing waste management in Africa. It's a user-friendly mobile app that simplifies waste collection, promotes recycling, and empowers communities to make eco-friendly choices, ultimately creating a cleaner and greener future for the continent.</li>
-                                <li>JadecoApp is on a mission to reduce environmental pollution and foster a culture of recycling across Africa. By offering an intuitive mobile app, the project aims to make waste management accessible and sustainable, contributing to a cleaner and more eco-friendly continent.</li>
-                            </ol>
-                        </div>
-                    </div>
-                </section>
-                <section class="jadeco-role-section">
-                    <div class="jadeco-role-content">
-                        <h1>ROLES</h1>
-                        <div class="role-content">
-                            <p>Design Strategy</p>
-                            <p>Usability Testing </p>
-                            <p>Wireframe</p>
-                            <p>Prototyping</p>
-                        </div>
-                        <div class="role-content role-content-middle">
-                            <p>Problem Solutions</p>
-                            <p>User Research </p>
-                            <p>Information Architechture</p>
-                        </div>
-                        <div class="role-content">
-                            <p>Competitive Analysis</p>
-                            <p>Visual Design</p>
-                            <p>User Flow</p>
-                            <p>User Persona</p>
-                        </div>
-                        <div class="role-content">
-                            <span>
-                                <h1>20</h1><h4>WEEKS</h4>
-                            </span>
-                            <span>
-                                <h1>30+</h1><h4>SCREENS</h4>
-                            </span>
-                        </div>
-                    </div>
-                </section>
-                <section class="jadeco-design-section">
-                    <div class="jadeco-design-content">
-                        <h1>DESIGN PROCESS</h1>
-                        <div class="design-content">
-                            <p>Discover</p>
-                            <p>Ideate</p>
-                            <p>Design</p>
-                            
-                        </div>
-                        <div class="design-content design-content-down">
-                            <p>Define</p>
-                            <p>Test</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="jadeco-user-research">
-                    <div class="jadeco-user-content">
-                        <h1>USER RESEARCH</h1>
-                        <h3>Research Methods:</h3>
-                        <div class="question-content">
-                            <p>
-                                Our User research involved a combination of qualitative and quantitative research methods. We conducted surveys and interviews to gather diverse insights, utilizing a mix of open-ended and closed-ended questions.
-                                A total of 30 users participated in the research process, providing valuable feedback and perspectives on their expectations from Jadecoapp.
-                            </p>
-                        </div>
-                        <h3>Research Questions:</h3>
-                        <div>
-                            <ol>
-                                <li>What would motivated users to download and use JadecoApp?</li>
-                                <li>How do users perceive the goals of JadecoApp on their waste management practices?</li>
-                                <li>What challenges or pain points do users encounter while using other waste management app?</li>
-                                <li>What features of JadecoApp do users find most valuable?</li>
-                                <li>Are there any specific features that users find difficult to use or not effective in other waste management apps?</li>
-                                <li>How do users compare JadecoApp to other waste management apps they have used?</li>
-                                <li>What suggestions do users have for enhancing community engagement features?</li>
-                                <li>How likely are users to continue using JadecoApp in the long term?</li>
-                            </ol>
-                        </div>
-                    </div>
-                </section>
-                <section class="jadeco-user-persona">
-                    <div class="jadeco-persona-content">
-                        <h1 class="heading">USER PERSONA</h1>
-                        <div class="user-persona-flex">
-                            <div>
-                                <div class="user-persona-div persona1">
-                                    <h1>Lola</h1>
-                                    <img src="../images/jadecoAppImage/lola_image.png" alt="">
-                                    <ul>
-                                        <li>
-                                            <p>AGE:</p>
-                                            <p>35</p>
-                                        </li>
-                                        <li>
-                                            <p>GENDER:</p>
-                                            <p>FEMALE</p>
-                                        </li>
-                                        <li>
-                                            <p>OCCUPATION:</p>
-                                            <p>ADVOCATE</p>
-                                        </li>
-                                        <li class="last-li">
-                                            <p>TECH LITERATE:</p>
-                                            <p>MEDIUM</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="user-persona-div person2">
-                                    <h1>“</h1>
-                                    <p>Building a cleaner future for our children starts with responsible waste management today.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="user-persona-div person3">
-                                    <h1>Bio</h1>
-                                    <p>A 35-year-old environmentalist and community leader in Nairobi, Kenya, with a degree in environmental science and a passion for sustainability.</p>
-                                </div>
-                                <div class="user-persona-div person3">
-                                    <h1>Core needs</h1>
-                                    <ol>
-                                        <li>Efficient Waste Disposal: Amina needs a solution for proper waste disposal in her community.</li>
-                                        <li>Community Engagement: She seeks a platform for collaborative waste management efforts.</li>
-                                        <li class="botom">Education and Awareness: Amina values resources to educate her community about waste management.</li>
-                                    </ol>
-                                </div>
-                                <div class="user-persona-div person3">
-                                    <h1>Frustration</h1>
-                                    <p>Inconsistent waste collection services leading to environmental hazards and unsightly litter.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="jadeco-userflow-section">
-                    <div class="jadeco-userflow-content">
-                        <img src="../images/jadecoAppImage/User-Flow-image.png" alt="">
-                    </div>
-                </section>
-                <section class="jadeco-iphone-section">
-                    <div class="jadeco-iphone-content">
-                        <img src="../images/jadecoAppImage/iphone-image.png" alt="">
-                    </div>
-                </section>
-                <section class="jadeco-overlay-section">
-                    <div class="jadeco-link-section-left jadeco-link-section">
-                        <div class="jadeco-display-left">
-                            <h1>Bloomwood Furniture</h1>
-                            <div class="jadeco-text-left">
-                                <img src="./images/left-left-arrow.png" alt="" class="jadeco-arrow-left">
-                                <p>Previous</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="jadeco-link-section-right jadeco-link-section">
-                        <div class="jadeco-display-right">
-                            <h1>Kaarme Exotic</h1>
-                            <div class="jadeco-text-right">
-                                <img src="./images/right-right-arrow.png" alt="" class="jadeco-arrow-left">
-                                <p>Previous</p>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </section>
             </main>
-            <footer class="jadeco-footer">
+            <footer class="request-quote-footer">
                 <div  id="footer-wrapper">
                     <div class="footer-content">
                         <div class="footer-logo">
@@ -325,18 +233,19 @@
                            <div class="row display_flex_item">
                              <div class="nav-footer">
                                 <ul>
-                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="">About</a></li>
                                     <li><a href="">Services</a></li>
                                     <li><a href="">Logo Design</a></li>
                                     <li><a href="">Web Design</a></li>
                                     <li><a href="">Digital Marketing</a></li>
                                     <li><a href="">Web Development</a></li>
                                     <li><a href="">App Development</a></li>
+    
                                 </ul>
                             </div>
                             <div class="nav-footer">
                                 <ul>
-                                    <li><a href="./work.html">Our Work</a></li>
+                                    <li><a href="">Our Work</a></li>
                                     <li><a href="">Blog</a></li>
                                     <li><a href="">Testimonial</a></li>
                                     <li><a href="">Website Maintenance</a></li>
@@ -373,7 +282,7 @@
                         </div>
                     </div>
                     
-                    </div><div class="copyright">
+                </div><div class="copyright">
                         <div class="copyright-holder">
                             <p>Copyright &#169;2024 TyWebStudio | Privacy Policy</p>
                         </div>
