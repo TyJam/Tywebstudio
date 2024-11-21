@@ -1,4 +1,76 @@
 
+/* REFACTORED NAVBAR JAVASCRIPT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+const hamburger = document.getElementById('hamburger');
+const menu = document.querySelector('.food-list');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('is-active');
+    menu.classList.toggle('active');
+});
+
+const dropdowns = document.querySelectorAll('.food-dropdown > .food-dropdown-toggle');
+dropdowns.forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        const icon = toggle.querySelector('.dropdown-icon');
+        const dropdownMenu = toggle.nextElementSibling;
+
+        // Toggle the chevron icon
+        if (icon.classList.contains('fa-chevron-down')) {
+            icon.classList.remove('fa-chevron-down');
+            icon.classList.add('fa-chevron-up');
+        } else {
+            icon.classList.remove('fa-chevron-up');
+            icon.classList.add('fa-chevron-down');
+        }
+
+        // Toggle the dropdown list visibility
+        dropdownMenu.classList.toggle('active-dropdown');
+    });
+});
+
+const submenus = document.querySelectorAll('.food-submenu > a');
+submenus.forEach(submenu => {
+    submenu.addEventListener('click', (e) => {
+        e.preventDefault();
+        const submenuIcon = submenu.querySelector('.dropdown-icon');
+        const subMenuList = submenu.nextElementSibling;
+
+        // Close all submenus
+        document.querySelectorAll('.food-sub-menu').forEach(menu => {
+            if (menu !== subMenuList) {
+                menu.classList.remove('active-dropdown');
+                const icon = menu.previousElementSibling.querySelector('.dropdown-icon');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        });
+
+        // Toggle the chevron icon
+        if (submenuIcon.classList.contains('fa-chevron-down')) {
+            submenuIcon.classList.remove('fa-chevron-down');
+            submenuIcon.classList.add('fa-chevron-up');
+        } else {
+            submenuIcon.classList.remove('fa-chevron-up');
+            submenuIcon.classList.add('fa-chevron-down');
+        }
+
+        // Toggle the sub-menu visibility
+        subMenuList.classList.toggle('active-dropdown');
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
 if(window.location.pathname ==='/index.html'){
   const UL = document.querySelector('.slidingVertical');
 const Li = UL.getElementsByTagName('li');
@@ -7,7 +79,7 @@ Li[1].style.animation = "topToBottom 9.5s linear infinite 2.5s";
 Li[2].style.animation = "topToBottom 9.5s linear infinite 5s";
 Li[3].style.animation = "topToBottom 9.5s linear infinite 7.5s";
 }
-const menu= document.querySelector('.menu');
+const menuu= document.querySelector('.menu');
 const close = document.querySelector('.dropbtn').getElementsByTagName('*')
 const main = document.querySelector('.hero_image');
 const Litype = document.querySelector('.litype2');
@@ -113,6 +185,23 @@ let position = window.pageYOffset;
 
 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  /* ABOUT JAVASCRIPT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 const letterContainer = document.querySelector(".letter-container");
@@ -188,4 +277,3 @@ function init() {
 init();
 
 window.addEventListener("resize", init);
-
