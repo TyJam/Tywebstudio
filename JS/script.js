@@ -15,7 +15,7 @@ dropdowns.forEach(toggle => {
         const icon = toggle.querySelector('.dropdown-icon');
         const dropdownMenu = toggle.nextElementSibling;
 
-        // Toggle the chevron icon
+        
         if (icon.classList.contains('fa-chevron-down')) {
             icon.classList.remove('fa-chevron-down');
             icon.classList.add('fa-chevron-up');
@@ -24,7 +24,7 @@ dropdowns.forEach(toggle => {
             icon.classList.add('fa-chevron-down');
         }
 
-        // Toggle the dropdown list visibility
+        
         dropdownMenu.classList.toggle('active-dropdown');
     });
 });
@@ -36,7 +36,7 @@ submenus.forEach(submenu => {
         const submenuIcon = submenu.querySelector('.dropdown-icon');
         const subMenuList = submenu.nextElementSibling;
 
-        // Close all submenus
+        
         document.querySelectorAll('.food-sub-menu').forEach(menu => {
             if (menu !== subMenuList) {
                 menu.classList.remove('active-dropdown');
@@ -46,7 +46,7 @@ submenus.forEach(submenu => {
             }
         });
 
-        // Toggle the chevron icon
+        
         if (submenuIcon.classList.contains('fa-chevron-down')) {
             submenuIcon.classList.remove('fa-chevron-down');
             submenuIcon.classList.add('fa-chevron-up');
@@ -55,15 +55,10 @@ submenus.forEach(submenu => {
             submenuIcon.classList.add('fa-chevron-down');
         }
 
-        // Toggle the sub-menu visibility
+        
         subMenuList.classList.toggle('active-dropdown');
     });
 });
-
-
-
-
-
 
 
 
@@ -183,24 +178,6 @@ let position = window.pageYOffset;
  }
 
 
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  /* ABOUT JAVASCRIPT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 

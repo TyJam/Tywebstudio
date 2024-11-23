@@ -33,6 +33,10 @@
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 html{
   font-family:sans-serif;
   line-height: 1.15;
@@ -50,6 +54,7 @@ body{
   font-weight:var(--L);
   text-align: left;
   height:100%;
+  scrollbar-width: none;
 }
 a{
   text-decoration: none;
@@ -87,9 +92,8 @@ button{
 #wrapper{
 width:100vw
 }
-/*************************
-            HEADER
- *************************/
+
+/* NAVIGATION BAR CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 .food-navbar {
   width:100%;
   z-index: 5;
@@ -97,8 +101,9 @@ width:100vw
   background-color:var(--white);
   padding: 10px 20px;
   font-family: 'Raleway';
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   position: sticky;
+  font-weight: 500;
 }
 
 .food-container {
@@ -113,7 +118,7 @@ width:100vw
   border-radius: 5px;
 }
 .food-logo {
-  z-index: 5;
+  z-index: 2;
 }
 
 .food-menu {
@@ -128,24 +133,21 @@ width:100vw
   padding: 0;
   margin: 0;
   position: relative;
-  z-index: 2;
 }
 
-.food-item > a {
+a {
   text-decoration: none;
   padding: 8px 8px;
   transition: text-decoration-thickness 0.3s ease, text-underline-offset 0.3s ease;
-  color: #000000; /* Change text color to white */
+  color: #000000;
 }
 
-.food-item > a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 2px; /* Adjust thickness of the underline */
-  text-decoration-color: #9BDC07
+a:hover {
+  transition: transform 0.2s ease-in-out;
+  padding: 10px 20px;
+  color: #9BDC07;
 }
 
-/* Dropdown Styles */
 .food-dropdown-menu,
 .food-sub-menu {
   display: none;
@@ -157,13 +159,13 @@ width:100vw
   padding: 10px;
   margin: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 2;
+  z-index: 10;
   border-radius: 5px;
 }
 
 .food-sub-menu {
-  width: 16vw;
-  left: 17.9vw;
+  width: 20vw;
+  left: 19.3vw;
 }
 
 .food-dropdown-menu li,
@@ -171,24 +173,17 @@ width:100vw
   padding: 5px 10px;
 }
 
-.food-dropdown-menu li a,
-.food-sub-menu li a {
-  text-decoration: none;
-}
-
-.food-dropdown-menu li:hover,
-.food-sub-menu li:hover {
-  background-color: #e0eaf3;
-}
-
 .active-dropdown {
   display: block !important;
 }
 .food-contact-btn{
   background-color: #9BDC07;
+  color: #FFFFFF;
+}
+.food-contact-btn:hover{
+  color: #FFFFFF;
 }
 
-/* Hamburger Menu for Mobile */
 .food-hamburger {
   display: none;
   cursor: pointer;
@@ -214,11 +209,11 @@ width:100vw
 }
 
 .food-hamburger:before {
-  transform: rotate(0) translate(0, 0); /* No rotation in default state */
+  transform: rotate(0) translate(0, 0);
 }
 
 .food-hamburger:after {
-  transform: rotate(0) translate(0, 0); /* No rotation in default state */
+  transform: rotate(0) translate(0, 0);
 }
 
 .food-hamburger.is-active:before {
@@ -233,6 +228,7 @@ width:100vw
   opacity: 0;
 }
 
+
 @media (max-width: 768px) {
   .food-list {
       flex-direction: column;
@@ -246,34 +242,39 @@ width:100vw
       padding-bottom: 15px;
       padding-top: 30vw;
       padding-left: 10vw;
-      color: black;
-      font-size: 5vw;
-      z-index: 2;
+      font-size: 3.5vw;
+      margin-bottom: 15vw;
   }
 
   .food-dropdown-menu{
       position: absolute;
-      top: 56vw;
-      left: 24vw;
+      top: 52vw;
+      left: 33vw;
+      width: 60%;
+      max-height: 55vh;
+      margin-bottom: 0.1%;
+      overflow-y: auto;
+  }
+  .food-dropdown-menu::-webkit-scrollbar {
+      width: 8px;
   }
   .food-dropdown-menu li{
       padding-top: 3vw;
+      bottom: 5vw;
   }
   .food-sub-menu {
-      width: 79%;
+      width: 100%;
       left: 0;
+      font-size: 3.3vw;
+      text-align: center;
   }
   .food-sub-menu {
       position: relative;
       box-shadow: 0 0 0;
-      z-index: 10;
+      z-index: 0;
   }
   .food-submenu ul{
-      background-color: #dbe9f7;
-      margin-bottom: 3vw;
-  }
-  .food-sub-menu li a {
-      color: #000000;
+      margin-bottom: 5vw;
   }
 
   .food-list.active {
@@ -284,16 +285,12 @@ width:100vw
       display: block;
       fill: black;
       padding-right: 7vw;
-      z-index: 5;
   }
 
   .food-item {
       text-align: start;
       padding-top: 5vw;
   }
-  .food-item > a {
-  color: black;
-}
 }
 
 
