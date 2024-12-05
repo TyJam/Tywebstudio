@@ -6199,6 +6199,7 @@ main{
 
 .right span {
   display: flex;
+  justify-content: space-between;
   gap: 2vw;
   img{
     width: 1.6vw;
@@ -6781,7 +6782,7 @@ main{
   height: 100%;
   background-image: url('../images/customWordpressImage/wordpressHeroContainer.png');
   background-repeat: no-repeat;
-  background-size: cover; /* Ensures the image covers the entire container */
+  background-size: cover;
   background-position: center;
   position: absolute;
   top: 0;
@@ -6807,4 +6808,72 @@ main{
 }
 .what-you-get-wordpress6{
   background-image: url('../images/customWordpressImage/what_bg6.png');
+}
+
+
+
+/* CUSTOM REDESIGN CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+#redesignHeroContainer{
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/redesignServiceImage/redesignHeroContainer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.redesignService button{
+  width: 25vw;
+}
+.what-you-get-redesign1{
+  background-image: url('../images/redesignServiceImage/what_bg1.png');
+}
+.what-you-get-redesign2{
+  background-image: url('../images/redesignServiceImage/what_bg2.png');
+}
+.what-you-get-redesign3{
+  background-image: url('../images/redesignServiceImage/what_bg3.png');
+}
+.what-you-get-redesign4{
+  background-image: url('../images/redesignServiceImage/what_bg4.png');
+}
+.what-you-get-redesign5{
+  background-image: url('../images/redesignServiceImage/what_bg5.png');
+}
+.what-you-get-redesign6{
+  background-image: url('../images/redesignServiceImage/what_bg6.png');
+}
+
+
+/* UI/UX CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+#ui_uxHeroContainer{
+  width: 100%;
+  height: 100%;
+  background-image: url('../images//ui_ux_Image/ui_uxHeroContainer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.what-you-get-ui_ux1{
+  background-image: url('../images/ui_ux_Image/what_bg1.png');
+}
+.what-you-get-ui_ux2{
+  background-image: url('../images/ui_ux_Image/what_bg2.png');
+}
+.what-you-get-ui_ux3{
+  background-image: url('../images/ui_ux_Image/what_bg3.png');
+}
+.what-you-get-ui_ux4{
+  background-image: url('../images/ui_ux_Image/what_bg4.png');
+}
+.what-you-get-ui_ux5{
+  background-image: url('../images/ui_ux_Image/what_bg5.png');
+}
+.what-you-get-ui_ux6{
+  background-image: url('../images/ui_ux_Image/what_bg6.png');
 }
