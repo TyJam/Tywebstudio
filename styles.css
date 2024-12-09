@@ -1354,7 +1354,7 @@ div#project-type {
  *************************/
 .header_container{
   justify-content:unset;
-  flex-direction: row;
+    flex-direction: row;
 }
 #logo{
 
@@ -4449,7 +4449,7 @@ em:not(.item1:nth-of-type(1) p:nth-of-type(1) em:nth-of-type(1)) {
   
 /* ABOUT CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
 #aboutHeroContainer{
-  background-image: url('../images/aboutImage/aboutHeroImg.svg.png');
+  background-image: url('../images/aboutImage/aboutHeroImg.svg');
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -5083,7 +5083,6 @@ hr {
 
 
 
-
 /* JADECOAPP CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
 main{
   background-color: #0C7EA2;
@@ -5543,7 +5542,7 @@ main{
 .request-btn{
   width: 18vw;
   height: 4.3vw;
-  padding: 0.8vw 1.5vw;
+  padding: 1vw 1.5vw;
   font-size: 1.8vw;
   margin-top: 3vw;
   background-color: #191C1C;
@@ -5736,6 +5735,7 @@ main{
   margin-top: 10vw;
 }
 }
+
 
 
 
@@ -6131,6 +6131,7 @@ main{
 }
 
 .our-experience-img h2{
+  text-transform: capitalize;
   font-size: 2.5vw;
   padding: 3vw 2vw;
   font-weight: 600;
@@ -6151,6 +6152,7 @@ main{
   padding: 1vw 0;
   font-size: 1.5vw;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .our-experience-img ul img {
@@ -6452,7 +6454,6 @@ main{
 }
 
 
-
 /* CUSTOM DESIGN CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
 #customHeroContainer{
   width: 100%;
@@ -6567,6 +6568,10 @@ main{
 }
 .our-process-col{
   padding-bottom: 2vw;
+
+  h2{
+    text-transform: uppercase;
+  }
 }
 
 /* design service Section ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -6782,7 +6787,7 @@ main{
   height: 100%;
   background-image: url('../images/customWordpressImage/wordpressHeroContainer.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; /* Ensures the image covers the entire container */
   background-position: center;
   position: absolute;
   top: 0;
@@ -6818,7 +6823,7 @@ main{
   height: 100%;
   background-image: url('../images/redesignServiceImage/redesignHeroContainer.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; /* Ensures the image covers the entire container */
   background-position: center;
   position: absolute;
   top: 0;
@@ -6853,7 +6858,7 @@ main{
   height: 100%;
   background-image: url('../images//ui_ux_Image/ui_uxHeroContainer.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; /* Ensures the image covers the entire container */
   background-position: center;
   position: absolute;
   top: 0;
@@ -6877,6 +6882,7 @@ main{
 .what-you-get-ui_ux6{
   background-image: url('../images/ui_ux_Image/what_bg6.png');
 }
+
 
 
 
