@@ -6223,6 +6223,10 @@ main{
   font-weight: 400;
 }
 
+.additional-info.visible {
+  display: block;
+}
+
 
 @media (max-width: 768px) {
   #logoHeroContainer{
