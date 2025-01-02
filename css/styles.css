@@ -4930,13 +4930,9 @@ hr {
 
 
 /* OUR WORK CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
-#workHeroContainer{
-  background-image: url('../images/workImage/workHeroImage.png');
-  background-repeat: no-repeat;
-  background-size:cover;
+#main{
+  background-color: #FFFFFF;
 }
-
-/* work Section +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .our-work-section {
   margin-top: -3.5rem;
   padding: 20px;
@@ -5005,10 +5001,12 @@ hr {
 
 .our-work-column .main-image {
   width: 31.5vw;
-  height: 35vw;
+  height: 100%;
+  object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin-left: -0.5rem;
+  margin-bottom: -1rem;
 }
 
 .our-work-column .left-overlay-image,
